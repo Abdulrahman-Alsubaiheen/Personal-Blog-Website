@@ -5,7 +5,7 @@
   flex-wrap: wrap;
   justify-content: space-evenly;
   align-items: center;
-  padding: 30px 7%;
+  padding: 10px 7%;
   background-color: #8ffff628;
   /* border: 1px solid green; */
 }
@@ -37,10 +37,40 @@
 
   object-fit: cover;
   /* border-radius: 10%; */
-  margin: 0px 50px;
 }
 
 .copy_rights {
   color: #6bb4af;
   font-size: 15px;
+}
+
+/* ----------------- Media queries ------------------ */
+
+/* mobile Screen */
+@media(max-width: 767px){
+  .footer {
+    flex-direction: column;
+  }
+  
+  .social_media {
+    order: 2;
+    margin-bottom: 30px;
+  }
+  
+  .logo {
+    order: 1;
+  }
+  
+  .copy_rights {
+    order: 3;
+  }
+  
+}
+
+
+/* Medium Screen */
+@media(min-width: 768px) and (max-width: 1100px){
+  .footer {
+    padding: 10px;
+  }  
 }
