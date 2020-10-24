@@ -6,7 +6,7 @@
   align-items: center;
   padding: 30px 7%;
 }
-.navbar h1{
+.h1{
   font-size: 24px;
 }
 .nav_link {
@@ -50,7 +50,7 @@
     justify-content: space-around;
     padding: 30px 7%;
   }
-  .navbar h1{
+  .h1{
     font-size: 35px;
   }
   .nav_link li {
@@ -62,4 +62,4 @@
     font-size: 28px;
   }
   
-  }
+}
